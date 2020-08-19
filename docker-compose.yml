@@ -5,13 +5,13 @@ services:
     container_name: xr-southsea-website
     build: .
     environment:
-      ENV: dev
+      ENV: prd
       MYSQL_HOST: mysql
       MYSQL_DATABASE: xrsouthsea
       MYSQL_USER: root
       MYSQL_PASSWORD: password
     ports:
-      - "80:80"
+      - "8000:80"
     volumes:
       - ./index.html:/srv/index.html
       - ./system:/srv/system

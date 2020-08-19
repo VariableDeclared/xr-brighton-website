@@ -1,6 +1,6 @@
 # Southsea Extinction Rebellion Website
 
-
+ [![](https://img.shields.io/github/commit-activity/y/damianmoore/xr-southsea-website.svg)](https://github.com/damianmoore/xr-southsea-website) [![](https://img.shields.io/github/issues-raw/damianmoore/xr-southsea-website.svg)](https://github.com/damianmoore/xr-southsea-website/issues) [![](https://img.shields.io/docker/cloud/build/damianmoore/xr-southsea-website.svg)](https://cloud.docker.com/repository/docker/damianmoore/xr-southsea-website)
 
 
 This is the code repository for the Southsea Extinction Rebellion website. You can re-use this code if you are setting up a site for your local Extinction Rebellion group. All of our work is free to use non-commercially in the full spirit of DIY. Do not use the work for commercial purposes, however well meaning, without prior consent from the originators. The Extinction Symbol was designed prior to Extinction Rebellion. Using the symbol on commercial merchandise is strictly forbidden. For more information visit www.extinctionsymbol.info .
