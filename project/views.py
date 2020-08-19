@@ -62,7 +62,7 @@ def arrestee_details(request):
             Arrestee(name=arrestee_name, contact_details=arrestee_contact, observer_name=observer_name).save()
             requests.post('https://skylark.epixstudios.co.uk/webhook/', params={
                 'title': "XR arrestee details added",
-                'icon': 'https://xrbrighton.earth/static/images/cropped-favicon-192x192.png',
+                'icon': 'https://xrsouthsea.earth/static/images/cropped-favicon-192x192.png',
                 'body': 'Total: {}'.format(Arrestee.objects.count()),
                 'color': '#21a73d',
             })

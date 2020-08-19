@@ -20,7 +20,7 @@ def signup(request):
         Subscription(email=email, first_name=first_name, last_name=last_name).save()
         requests.post('https://skylark.epixstudios.co.uk/webhook/', params={
             'title': "New XR mailing list subscription",
-            'icon': 'https://xrbrighton.earth/static/images/cropped-favicon-192x192.png',
+            'icon': 'https://xrsouthsea.earth/static/images/cropped-favicon-192x192.png',
             'body': 'Domain: {}  Total: {}'.format(email.split('@')[-1], Subscription.objects.count()),
             'color': '#21a73d',
         })

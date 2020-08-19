@@ -3,7 +3,7 @@ from django.contrib import admin
 from .models import Category, Event, Article, ArticleSource, Arrestee, Human, HumanImage, Group, Newsletter
 
 
-admin.site.site_header = 'XR Brighton Administration'
+admin.site.site_header = 'XR Southsea Administration'
 
 
 class VersionedAdmin(admin.ModelAdmin):

@@ -1,0 +1,7 @@
+TODO:
+
+
+Push to github
+SSL
+Update social links
+Add fix donate button

@@ -2,16 +2,16 @@ version: "2"
 
 services:
   website:
-    container_name: xr-brighton-website
+    container_name: xr-southsea-website
     build: .
     environment:
       ENV: dev
       MYSQL_HOST: mysql
-      MYSQL_DATABASE: xrbrighton
+      MYSQL_DATABASE: xrsouthsea
       MYSQL_USER: root
       MYSQL_PASSWORD: password
     ports:
-      - "8000:80"
+      - "80:80"
     volumes:
       - ./index.html:/srv/index.html
       - ./system:/srv/system
@@ -24,7 +24,7 @@ services:
       - mysql
 
   mysql:
-    container_name: xr-brighton-mysql
+    container_name: xr-southsea-mysql
     image: mysql:5.7
     volumes:
      - ./volumes/mysql:/var/lib/mysql
@@ -32,4 +32,4 @@ services:
      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: xrbrighton
+      MYSQL_DATABASE: xrsouthsea

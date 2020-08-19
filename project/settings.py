@@ -28,7 +28,7 @@ SECRET_KEY = 'lu8ug35p3^=gruys#!3f=7ktbekuq45t)0+y)goyhri774z&rb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('ENV', 'prd') != 'prd'
 
-ALLOWED_HOSTS = ['localhost', 'xrbrighton.epixstudios.co.uk', 'xrbrighton.earth']
+ALLOWED_HOSTS = ['localhost', '54.220.5.169', 'xrsouthsea.epixstudios.co.uk', 'xrsouthsea.earth']
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTOCOL', 'https')
 

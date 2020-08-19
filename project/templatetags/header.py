@@ -30,16 +30,16 @@ def header(image=None, size='normal', caption=None, link=None):
             link = f'/news/{article.slug}/'
 
     crop = 'smart'
-    if image.subject_location:
-        vertical_pos = int((int(image.subject_location.split(',')[1]) / image.height) * 100)
-        crop = f',{vertical_pos}'
+#    if image.subject_location:
+#        vertical_pos = int((int(image.subject_location.split(',')[1]) / image.height) * 100)
+#        crop = f',{vertical_pos}'
 
     options = {
         'size': (1920, 600),
         'crop': crop,
         'quality': 60,
     }
-    url = get_thumbnailer(image).get_thumbnail(options).url
+#    url = get_thumbnailer(image).get_thumbnail(options).url
 
     extra_class = ''
     if size == 'large':
@@ -50,4 +50,4 @@ def header(image=None, size='normal', caption=None, link=None):
     if link:
         caption = f'<a href="{link}">{caption}</a>'
 
-    return mark_safe(f'<div class="hero {extra_class}" style="background-image: url({url})">{caption}</div>')
+    return mark_safe(f'<div class="hero {extra_class}" >{caption}</div>')
