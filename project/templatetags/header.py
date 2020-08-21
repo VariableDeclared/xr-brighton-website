@@ -30,16 +30,16 @@ def header(image=None, size='normal', caption=None, link=None):
             link = f'/news/{article.slug}/'
 
     crop = 'smart'
-#    if image.subject_location:
-#        vertical_pos = int((int(image.subject_location.split(',')[1]) / image.height) * 100)
-#        crop = f',{vertical_pos}'
+    if image.subject_location:
+        vertical_pos = int((int(image.subject_location.split(',')[1]) / image.height) * 100)
+        crop = f',{vertical_pos}'
 
     options = {
         'size': (1920, 600),
         'crop': crop,
         'quality': 60,
     }
-#    url = get_thumbnailer(image).get_thumbnail(options).url
+    url = get_thumbnailer(image).get_thumbnail(options).url
 
     extra_class = ''
     if size == 'large':
