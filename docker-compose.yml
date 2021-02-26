@@ -5,7 +5,7 @@ services:
     container_name: xr-southsea-website
     build: .
     environment:
-      ENV: prd
+      ENV: dev
       MYSQL_HOST: mysql
       MYSQL_DATABASE: xrsouthsea
       MYSQL_USER: root
@@ -33,3 +33,4 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: xrsouthsea
+      MYSQL_DATABASE_CHARSET: "utf8mb4"

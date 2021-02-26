@@ -193,6 +193,7 @@ if os.environ.get('MYSQL_DATABASE'):
             'PASSWORD': os.environ.get('MYSQL_PASSWORD', ''),
             'HOST': os.environ.get('MYSQL_HOST', 'localhost'),
             'PORT': '',
+            'OPTIONS': {'charset': 'utf8mb4'}
         }
     }
 else:
