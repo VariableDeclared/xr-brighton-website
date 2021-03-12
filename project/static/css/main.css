@@ -292,7 +292,7 @@ main article .content {
   height: 15em;
   overflow: hidden;
   background-size: cover;
-  background-color: #21a73d;
+  background-color: #2BB9CF;
   background-position: center;
 }
 .is-multi-day .tease-event__date-small {
@@ -360,7 +360,7 @@ main article .content {
   background: white;
 }
 article.promote .tease-event__body {
-  background: #21a73d;
+  background: #2BB9CF;
   color: #fff;
 }
 .event-image-location {
@@ -377,7 +377,7 @@ header .page-header__wrap {
   left: 0;
   right: 0;
   top: 0;
-  background: #21a73d;
+  background: #2BB9CF;
   padding: 0 20px;
   display: flex;
 }
@@ -598,7 +598,7 @@ footer ul.links li a {
   z-index: 1001;
   height: 100%;
   width: 88%;
-  background-color: #21a73d;
+  background-color: #2BB9CF;
   padding: 5.6875em 1.25em 0 1.5625em;
   transform: translateX(104%);
   transition: transform 0.4s;
@@ -651,7 +651,7 @@ footer ul.links li a {
 }
 
 .mailinglist-form {
-  background: #21a73d;
+  background: #2BB9CF;
   margin: 40px 0;
   padding: 15px;
 }
@@ -739,7 +739,7 @@ footer ul.links li a {
 .calendar div.day > h3.number
 {
 	bottom: 5px;
-	color: #21a73d;
+	color: #2BB9CF;
   font-size: 45px;
   line-height: 0.8;
 	margin-bottom: 0;
@@ -850,7 +850,7 @@ div.humandetail .content {
   height: 100%;
 }
 div.humandetail .info .group {
-  color: #21a73d;
+  color: #2BB9CF;
   font-size: 20px;
   border-bottom: 1px #000 solid;
 }

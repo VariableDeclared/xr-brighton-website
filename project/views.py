@@ -64,7 +64,7 @@ def arrestee_details(request):
                 'title': "XR arrestee details added",
                 'icon': 'https://xrsouthsea.earth/static/images/cropped-favicon-192x192.png',
                 'body': 'Total: {}'.format(Arrestee.objects.count()),
-                'color': '#21a73d',
+                'color': '#2BB9CF',
             })
         except:
             return render(request, 'arrestee_error.html')
